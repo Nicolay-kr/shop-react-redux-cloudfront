@@ -106,7 +106,7 @@ resources:
               ResponseCode: 200
               ResponsePagePath: /index.html
           DefaultCacheBehavior:
-            AllowedMethods: ["GET", "HEAD", "OPTIONS"]
+            AllowedMethods: ["HEAD", "DELETE", "POST", "GET", "OPTIONS", "PUT", "PATCH"]
             CachedMethods: ["GET", "HEAD", "OPTIONS"]
             ForwardedValues:
               Headers:
