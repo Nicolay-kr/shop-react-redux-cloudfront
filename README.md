@@ -7,6 +7,11 @@ https://d2mj9dceogvzr.cloudfront.net
 http://my-store-app-custom.s3-website.eu-central-1.amazonaws.com
 
 
+# Notes:
+.env should contain:
+{yours_github_account_login}=TEST_PASSWORD
+
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
