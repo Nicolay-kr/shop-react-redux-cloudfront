@@ -8,8 +8,9 @@ http://my-store-app-custom.s3-website.eu-central-1.amazonaws.com
 
 
 # Notes:
-.env should contain:
-{yours_github_account_login}=TEST_PASSWORD
+For Task-7 add next value to browser local storage. Open chrome devtools -> Application -> local storage:
+KEY = authorization_token
+VALUE = Basic Tmljb2xheV9rcjpURVNUX1BBU1NXT1JET==
 
 
 # React-shop-cloudfront
